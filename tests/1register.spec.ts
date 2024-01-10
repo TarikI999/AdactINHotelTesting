@@ -12,9 +12,9 @@ test('User registration test', async ({ page }: { page: Page }) => {
   // Fill in the registration form, excluding the CAPTCHA value
   await registerPage.fillRegistrationForm(
     page,
-    'usernezev12ww',
+    'usernezev1222222',
     'password123',
-    'u4424732899q12w@gmail.com',
+    'u4424732899q122222222@gmail.com',
     '', // Leave this empty
     'user1234' // Provide the full name here
   );
